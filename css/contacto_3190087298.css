@@ -1,0 +1,80 @@
+/* CONTACTO_3190087298.CSS */
+
+/* ---- SECCION CONTACTO ---- */
+.contacto_3190087298 {
+    padding: 40px 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contacto_info_3190087298 {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 35%;
+}
+
+.contacto_info_3190087298 h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+.contacto_info_3190087298 p {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* ---- REDES SOCIALES EN CONTACTO ---- */
+.contacto_redes_3190087298 {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 35%;
+    text-align: center;
+}
+
+.contacto_redes_3190087298 h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+.contacto_redes_3190087298 a {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.contacto_redes_3190087298 a:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border-color: #e74c3c;
+}
+
+/* ---- MEDIA QUERY ---- */
+@media (max-width: 768px) {
+
+    .contacto_3190087298 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto_info_3190087298 {
+        width: 90%;
+    }
+
+    .contacto_redes_3190087298 {
+        width: 90%;
+    }
+}

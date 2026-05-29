@@ -1,0 +1,118 @@
+/* ACERCA_3190087298.CSS */
+
+/* ---- SECCION CREADOR ---- */
+.acerca_3190087298 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.acerca_3190087298 h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.creador_card_3190087298 {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.creador_card_3190087298 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #e74c3c;
+}
+
+.creador_card_3190087298 h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.creador_card_3190087298 p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+/* ---- HISTORIA ---- */
+.historia_3190087298 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.historia_3190087298 h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.historia_3190087298 p {
+    font-size: 15px;
+    color: #666666;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* ---- VALORES ---- */
+.valores_3190087298 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.valores_3190087298 h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.valores_container_3190087298 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.valor_card_3190087298 {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-left: 4px solid #e74c3c;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+    width: 28%;
+    text-align: left;
+}
+
+.valor_card_3190087298 h3 {
+    color: #e74c3c;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.valor_card_3190087298 p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* ---- MEDIA QUERY ---- */
+@media (max-width: 768px) {
+
+    .creador_card_3190087298 {
+        width: 90%;
+    }
+
+    .valores_container_3190087298 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .valor_card_3190087298 {
+        width: 90%;
+    }
+}
